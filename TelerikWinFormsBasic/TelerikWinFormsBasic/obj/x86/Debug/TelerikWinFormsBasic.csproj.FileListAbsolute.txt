@@ -1,0 +1,15 @@
+D:\Wilson\Code\C#\C-.DotNet\TelerikWinFormsBasic\TelerikWinFormsBasic\bin\Debug\TelerikWinFormsBasic.exe.config
+D:\Wilson\Code\C#\C-.DotNet\TelerikWinFormsBasic\TelerikWinFormsBasic\bin\Debug\TelerikWinFormsBasic.exe
+D:\Wilson\Code\C#\C-.DotNet\TelerikWinFormsBasic\TelerikWinFormsBasic\bin\Debug\TelerikWinFormsBasic.pdb
+D:\Wilson\Code\C#\C-.DotNet\TelerikWinFormsBasic\TelerikWinFormsBasic\bin\Debug\Telerik.WinControls.dll
+D:\Wilson\Code\C#\C-.DotNet\TelerikWinFormsBasic\TelerikWinFormsBasic\bin\Debug\Telerik.WinControls.UI.dll
+D:\Wilson\Code\C#\C-.DotNet\TelerikWinFormsBasic\TelerikWinFormsBasic\bin\Debug\TelerikCommon.dll
+D:\Wilson\Code\C#\C-.DotNet\TelerikWinFormsBasic\TelerikWinFormsBasic\bin\Debug\Telerik.WinControls.xml
+D:\Wilson\Code\C#\C-.DotNet\TelerikWinFormsBasic\TelerikWinFormsBasic\bin\Debug\Telerik.WinControls.UI.xml
+D:\Wilson\Code\C#\C-.DotNet\TelerikWinFormsBasic\TelerikWinFormsBasic\obj\x86\Debug\TelerikWinFormsBasic.csprojResolveAssemblyReference.cache
+D:\Wilson\Code\C#\C-.DotNet\TelerikWinFormsBasic\TelerikWinFormsBasic\obj\x86\Debug\TelerikWinFormsBasic.RadForm1.resources
+D:\Wilson\Code\C#\C-.DotNet\TelerikWinFormsBasic\TelerikWinFormsBasic\obj\x86\Debug\TelerikWinFormsBasic.Properties.Resources.resources
+D:\Wilson\Code\C#\C-.DotNet\TelerikWinFormsBasic\TelerikWinFormsBasic\obj\x86\Debug\TelerikWinFormsBasic.csproj.GenerateResource.Cache
+D:\Wilson\Code\C#\C-.DotNet\TelerikWinFormsBasic\TelerikWinFormsBasic\obj\x86\Debug\TelerikWinFormsBasic.exe
+D:\Wilson\Code\C#\C-.DotNet\TelerikWinFormsBasic\TelerikWinFormsBasic\obj\x86\Debug\TelerikWinFormsBasic.pdb
+D:\Wilson\Code\C#\C-.DotNet\TelerikWinFormsBasic\TelerikWinFormsBasic\obj\x86\Debug\TelerikWinFormsBasic.exe.licenses
