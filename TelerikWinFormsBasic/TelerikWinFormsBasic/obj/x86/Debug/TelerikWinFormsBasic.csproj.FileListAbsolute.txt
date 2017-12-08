@@ -1,0 +1,1 @@
+D:\Wilson\Code\C#\C-.DotNet\TelerikWinFormsBasic\TelerikWinFormsBasic\bin\Debug\TelerikWinFormsBasic.exe.config
