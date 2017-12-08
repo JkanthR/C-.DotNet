@@ -16,7 +16,22 @@ namespace TelerikWinFormsBasic
             InitializeComponent();
         }
 
-        private void RadForm1_Load(object sender, EventArgs e)
+        private void radGroupBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radMenuItem9_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void radGroupBox1_Click_1(object sender, EventArgs e)
         {
 
         }
