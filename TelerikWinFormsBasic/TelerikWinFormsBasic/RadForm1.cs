@@ -11,29 +11,25 @@ namespace TelerikWinFormsBasic
 {
     public partial class RadForm1 : Telerik.WinControls.UI.RadForm
     {
-        public RadForm1()
+        private int roler;
+        public RadForm1(int roler)
         {
+            this.roler = roler;
             InitializeComponent();
         }
-
-        private void radGroupBox1_Click(object sender, EventArgs e)
+        private void radMenu_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void radButton1_Click(object sender, EventArgs e)
+        private void radMenuSell_Click(object sender, EventArgs e)
         {
-
+            
         }
 
-        private void radMenuItem9_Click(object sender, EventArgs e)
+        private void Products_Click(object sender, EventArgs e)
         {
            
-        }
-
-        private void radGroupBox1_Click_1(object sender, EventArgs e)
-        {
-
         }
     }
 }

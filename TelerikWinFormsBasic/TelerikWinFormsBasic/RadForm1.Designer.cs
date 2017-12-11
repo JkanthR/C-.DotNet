@@ -28,143 +28,154 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition1 = new Telerik.WinControls.UI.TableViewDefinition();
-            this.radMenu3 = new Telerik.WinControls.UI.RadMenu();
-            this.radMenuItem9 = new Telerik.WinControls.UI.RadMenuItem();
-            this.radMenuItem10 = new Telerik.WinControls.UI.RadMenuItem();
-            this.radMenuItem11 = new Telerik.WinControls.UI.RadMenuItem();
-            this.radGroupBox1 = new Telerik.WinControls.UI.RadGroupBox();
-            this.radGroupBox2 = new Telerik.WinControls.UI.RadGroupBox();
-            this.radGroupBox3 = new Telerik.WinControls.UI.RadGroupBox();
-            this.radMenu4 = new Telerik.WinControls.UI.RadMenu();
-            this.radGridView1 = new Telerik.WinControls.UI.RadGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.radMenu3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radGroupBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radGroupBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radGroupBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radMenu4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radGridView1.MasterTemplate)).BeginInit();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RadForm1));
+            this.radMenuSell = new Telerik.WinControls.UI.RadMenuItem();
+            this.Products = new Telerik.WinControls.UI.RadMenuItem();
+            this.radMenuItem12 = new Telerik.WinControls.UI.RadMenuItem();
+            this.radMenuItem13 = new Telerik.WinControls.UI.RadMenuItem();
+            this.radMenuItem14 = new Telerik.WinControls.UI.RadMenuItem();
+            this.radMenuItem15 = new Telerik.WinControls.UI.RadMenuItem();
+            this.radMenuItem16 = new Telerik.WinControls.UI.RadMenuItem();
+            this.radPanelMenu = new Telerik.WinControls.UI.RadPanel();
+            this.radMenu = new Telerik.WinControls.UI.RadMenu();
+            this.radMenuItem17 = new Telerik.WinControls.UI.RadMenuItem();
+            this.radMenuItem18 = new Telerik.WinControls.UI.RadMenuItem();
+            this.radMenuItem19 = new Telerik.WinControls.UI.RadMenuItem();
+            this.radMenuItem20 = new Telerik.WinControls.UI.RadMenuItem();
+            this.radMenuItem21 = new Telerik.WinControls.UI.RadMenuItem();
+            this.radMenuItem22 = new Telerik.WinControls.UI.RadMenuItem();
+            ((System.ComponentModel.ISupportInitialize)(this.radPanelMenu)).BeginInit();
+            this.radPanelMenu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.radMenu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
-            // radMenu3
+            // radMenuSell
             // 
-            this.radMenu3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.radMenu3.Dock = System.Windows.Forms.DockStyle.None;
-            this.radMenu3.Items.AddRange(new Telerik.WinControls.RadItem[] {
-            this.radMenuItem9,
-            this.radMenuItem10,
-            this.radMenuItem11});
-            this.radMenu3.Location = new System.Drawing.Point(-6, 1);
-            this.radMenu3.Name = "radMenu3";
-            this.radMenu3.Size = new System.Drawing.Size(1213, 30);
-            this.radMenu3.TabIndex = 0;
-            this.radMenu3.Text = "radMenu3";
+            this.radMenuSell.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radMenuSell.Image = null;
+            this.radMenuSell.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radMenuSell.ImageIndex = -1;
+            this.radMenuSell.Name = "radMenuSell";
+            this.radMenuSell.Text = "Sell";
+            this.radMenuSell.Click += new System.EventHandler(this.radMenuSell_Click);
             // 
-            // radMenuItem9
+            // Products
             // 
-            this.radMenuItem9.Name = "radMenuItem9";
-            this.radMenuItem9.Text = "";
-            this.radMenuItem9.Click += new System.EventHandler(this.radMenuItem9_Click);
+            this.Products.Name = "Products";
+            this.Products.Text = "Products";
+            this.Products.Click += new System.EventHandler(this.Products_Click);
             // 
-            // radMenuItem10
+            // radMenuItem12
             // 
-            this.radMenuItem10.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radMenuItem10.Name = "radMenuItem10";
-            this.radMenuItem10.Text = "Giới thiệu";
+            this.radMenuItem12.Name = "radMenuItem12";
+            this.radMenuItem12.Text = "Employees";
             // 
-            // radMenuItem11
+            // radMenuItem13
             // 
-            this.radMenuItem11.Name = "radMenuItem11";
-            this.radMenuItem11.Text = "radMenuItem11";
+            this.radMenuItem13.Name = "radMenuItem13";
+            this.radMenuItem13.Text = "Customors";
             // 
-            // radGroupBox1
+            // radMenuItem14
             // 
-            this.radGroupBox1.AccessibleRole = System.Windows.Forms.AccessibleRole.Grouping;
-            this.radGroupBox1.BackColor = System.Drawing.Color.Green;
-            this.radGroupBox1.HeaderText = "Quản lí nhân viên";
-            this.radGroupBox1.Location = new System.Drawing.Point(-6, 37);
-            this.radGroupBox1.Name = "radGroupBox1";
-            this.radGroupBox1.Size = new System.Drawing.Size(163, 139);
-            this.radGroupBox1.TabIndex = 1;
-            this.radGroupBox1.Text = "Quản lí nhân viên";
-            this.radGroupBox1.ThemeName = "Office2007Black";
-            this.radGroupBox1.Click += new System.EventHandler(this.radGroupBox1_Click_1);
+            this.radMenuItem14.Name = "radMenuItem14";
+            this.radMenuItem14.Text = "Statistical";
             // 
-            // radGroupBox2
+            // radMenuItem15
             // 
-            this.radGroupBox2.AccessibleRole = System.Windows.Forms.AccessibleRole.Grouping;
-            this.radGroupBox2.BackColor = System.Drawing.Color.Green;
-            this.radGroupBox2.HeaderText = "Quản lí hàng hóa";
-            this.radGroupBox2.Location = new System.Drawing.Point(-6, 182);
-            this.radGroupBox2.Name = "radGroupBox2";
-            this.radGroupBox2.Size = new System.Drawing.Size(163, 151);
-            this.radGroupBox2.TabIndex = 2;
-            this.radGroupBox2.Text = "Quản lí hàng hóa";
-            this.radGroupBox2.ThemeName = "Office2007Black";
+            this.radMenuItem15.Name = "radMenuItem15";
+            this.radMenuItem15.Text = "Store";
             // 
-            // radGroupBox3
+            // radMenuItem16
             // 
-            this.radGroupBox3.AccessibleRole = System.Windows.Forms.AccessibleRole.Grouping;
-            this.radGroupBox3.BackColor = System.Drawing.Color.Green;
-            this.radGroupBox3.HeaderText = "Thống kê";
-            this.radGroupBox3.Location = new System.Drawing.Point(-6, 339);
-            this.radGroupBox3.Name = "radGroupBox3";
-            this.radGroupBox3.Size = new System.Drawing.Size(163, 168);
-            this.radGroupBox3.TabIndex = 4;
-            this.radGroupBox3.Text = "Thống kê";
-            this.radGroupBox3.ThemeName = "Office2007Black";
+            this.radMenuItem16.Alignment = System.Drawing.ContentAlignment.TopRight;
+            this.radMenuItem16.Enabled = false;
+            this.radMenuItem16.ImageAlignment = System.Drawing.ContentAlignment.BottomRight;
+            this.radMenuItem16.Name = "radMenuItem16";
+            this.radMenuItem16.PopupDirection = Telerik.WinControls.UI.RadDirection.Right;
+            this.radMenuItem16.Text = "Your profile";
+            this.radMenuItem16.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // radMenu4
+            // radPanelMenu
             // 
-            this.radMenu4.BackColor = System.Drawing.Color.Green;
-            this.radMenu4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.radMenu4.Location = new System.Drawing.Point(0, 578);
-            this.radMenu4.Name = "radMenu4";
-            this.radMenu4.Size = new System.Drawing.Size(839, 20);
-            this.radMenu4.TabIndex = 5;
-            this.radMenu4.Text = "radMenu4";
+            this.radPanelMenu.Controls.Add(this.radMenu);
+            this.radPanelMenu.Location = new System.Drawing.Point(0, 0);
+            this.radPanelMenu.Name = "radPanelMenu";
+            this.radPanelMenu.Size = new System.Drawing.Size(1165, 42);
+            this.radPanelMenu.TabIndex = 1;
             // 
-            // radGridView1
+            // radMenu
             // 
-            this.radGridView1.Location = new System.Drawing.Point(187, 62);
+            this.radMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.radMenu.Dock = System.Windows.Forms.DockStyle.None;
+            this.radMenu.Items.AddRange(new Telerik.WinControls.RadItem[] {
+            this.radMenuSell,
+            this.Products,
+            this.radMenuItem12,
+            this.radMenuItem13,
+            this.radMenuItem14,
+            this.radMenuItem15,
+            this.radMenuItem16,
+            this.radMenuItem17,
+            this.radMenuItem18,
+            this.radMenuItem19,
+            this.radMenuItem20,
+            this.radMenuItem21,
+            this.radMenuItem22});
+            this.radMenu.Location = new System.Drawing.Point(0, 3);
+            this.radMenu.Name = "radMenu";
+            this.radMenu.Size = new System.Drawing.Size(1162, 57);
+            this.radMenu.TabIndex = 0;
+            this.radMenu.Text = "radMenu5";
             // 
+            // radMenuItem17
             // 
+            this.radMenuItem17.Name = "radMenuItem17";
+            this.radMenuItem17.Text = "radMenuItem17";
             // 
-            this.radGridView1.MasterTemplate.ViewDefinition = tableViewDefinition1;
-            this.radGridView1.Name = "radGridView1";
-            this.radGridView1.Size = new System.Drawing.Size(643, 412);
-            this.radGridView1.TabIndex = 3;
-            this.radGridView1.Text = "radGridView1";
+            // radMenuItem18
+            // 
+            this.radMenuItem18.Name = "radMenuItem18";
+            this.radMenuItem18.Text = "radMenuItem18";
+            // 
+            // radMenuItem19
+            // 
+            this.radMenuItem19.Name = "radMenuItem19";
+            this.radMenuItem19.Text = "radMenuItem19";
+            // 
+            // radMenuItem20
+            // 
+            this.radMenuItem20.Name = "radMenuItem20";
+            this.radMenuItem20.Text = "radMenuItem20";
+            // 
+            // radMenuItem21
+            // 
+            this.radMenuItem21.Name = "radMenuItem21";
+            this.radMenuItem21.Text = "radMenuItem21";
+            // 
+            // radMenuItem22
+            // 
+            this.radMenuItem22.Name = "radMenuItem22";
+            this.radMenuItem22.Text = "radMenuItem22";
             // 
             // RadForm1
             // 
-            this.ClientSize = new System.Drawing.Size(839, 598);
-            this.Controls.Add(this.radMenu4);
-            this.Controls.Add(this.radGroupBox3);
-            this.Controls.Add(this.radGridView1);
-            this.Controls.Add(this.radGroupBox2);
-            this.Controls.Add(this.radGroupBox1);
-            this.Controls.Add(this.radMenu3);
-            this.DoubleBuffered = false;
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(1165, 608);
+            this.Controls.Add(this.radPanelMenu);
             this.Name = "RadForm1";
             // 
             // 
             // 
             this.RootElement.ApplyShapeToControl = true;
-            ((System.ComponentModel.ISupportInitialize)(this.radMenu3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radGroupBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radGroupBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radGroupBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radMenu4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radGridView1.MasterTemplate)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radGridView1)).EndInit();
+            this.Text = "";
+            ((System.ComponentModel.ISupportInitialize)(this.radPanelMenu)).EndInit();
+            this.radPanelMenu.ResumeLayout(false);
+            this.radPanelMenu.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.radMenu)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -183,15 +194,26 @@
         private Telerik.WinControls.UI.RadMenuItem radMenuItem6;
         private Telerik.WinControls.UI.RadMenuItem radMenuItem7;
         private Telerik.WinControls.UI.RadMenuItem radMenuItem8;
-        private Telerik.WinControls.UI.RadMenu radMenu3;
+        private Telerik.WinControls.UI.RadMenu radMenu4;
         private Telerik.WinControls.UI.RadMenuItem radMenuItem9;
         private Telerik.WinControls.UI.RadMenuItem radMenuItem10;
         private Telerik.WinControls.UI.RadMenuItem radMenuItem11;
-        private Telerik.WinControls.UI.RadGroupBox radGroupBox1;
-        private Telerik.WinControls.UI.RadGroupBox radGroupBox2;
-        private Telerik.WinControls.UI.RadGroupBox radGroupBox3;
-        private Telerik.WinControls.UI.RadMenu radMenu4;
-        private Telerik.WinControls.UI.RadGridView radGridView1;
+        private Telerik.WinControls.UI.RadMenu radMenu3;
+        private Telerik.WinControls.UI.RadMenuItem radMenuSell;
+        private Telerik.WinControls.UI.RadMenuItem Products;
+        private Telerik.WinControls.UI.RadMenuItem radMenuItem12;
+        private Telerik.WinControls.UI.RadMenuItem radMenuItem13;
+        private Telerik.WinControls.UI.RadMenuItem radMenuItem14;
+        private Telerik.WinControls.UI.RadMenuItem radMenuItem15;
+        private Telerik.WinControls.UI.RadMenuItem radMenuItem16;
+        private Telerik.WinControls.UI.RadPanel radPanelMenu;
+        private Telerik.WinControls.UI.RadMenu radMenu;
+        private Telerik.WinControls.UI.RadMenuItem radMenuItem17;
+        private Telerik.WinControls.UI.RadMenuItem radMenuItem18;
+        private Telerik.WinControls.UI.RadMenuItem radMenuItem19;
+        private Telerik.WinControls.UI.RadMenuItem radMenuItem20;
+        private Telerik.WinControls.UI.RadMenuItem radMenuItem21;
+        private Telerik.WinControls.UI.RadMenuItem radMenuItem22;
 
     }
 }

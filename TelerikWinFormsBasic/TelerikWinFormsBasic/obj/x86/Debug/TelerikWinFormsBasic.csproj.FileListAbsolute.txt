@@ -13,3 +13,7 @@ D:\Wilson\Code\C#\C-.DotNet\TelerikWinFormsBasic\TelerikWinFormsBasic\obj\x86\De
 D:\Wilson\Code\C#\C-.DotNet\TelerikWinFormsBasic\TelerikWinFormsBasic\obj\x86\Debug\TelerikWinFormsBasic.exe
 D:\Wilson\Code\C#\C-.DotNet\TelerikWinFormsBasic\TelerikWinFormsBasic\obj\x86\Debug\TelerikWinFormsBasic.pdb
 D:\Wilson\Code\C#\C-.DotNet\TelerikWinFormsBasic\TelerikWinFormsBasic\obj\x86\Debug\TelerikWinFormsBasic.exe.licenses
+<<<<<<< HEAD
+D:\Wilson\Code\C#\C-.DotNet\TelerikWinFormsBasic\TelerikWinFormsBasic\obj\x86\Debug\TelerikWinFormsBasic.RadFormLogin.resources
+=======
+>>>>>>> 8bcdc99ff8683eedc7151b13162445b4c06bf9c2
