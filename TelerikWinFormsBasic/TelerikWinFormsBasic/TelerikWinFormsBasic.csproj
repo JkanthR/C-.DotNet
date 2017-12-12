@@ -47,8 +47,16 @@
       <HintPath>..\lib\RCWF\2017.3.1017.40.Trial\Telerik.WinControls.dll</HintPath>
       <Private>True</Private>
     </Reference>
+<<<<<<< HEAD
     <Reference Include="Telerik.WinControls.GridView, Version=2017.3.1017.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
     <Reference Include="Telerik.WinControls.RadDiagram, Version=2017.3.1017.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+=======
+<<<<<<< HEAD
+=======
+    <Reference Include="Telerik.WinControls.GridView, Version=2017.3.1017.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.RadDiagram, Version=2017.3.1017.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+>>>>>>> developer
+>>>>>>> c407ecbc7d633e8c03ebeabf49d08cd9dc1f5546
     <Reference Include="Telerik.WinControls.UI, Version=2017.3.1017.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
       <HintPath>..\lib\RCWF\2017.3.1017.40.Trial\Telerik.WinControls.UI.dll</HintPath>
       <Private>True</Private>
@@ -65,6 +73,11 @@
     <Compile Include="RadForm1.Designer.cs">
       <DependentUpon>RadForm1.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> c407ecbc7d633e8c03ebeabf49d08cd9dc1f5546
     <Compile Include="RadFormLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +85,10 @@
       <DependentUpon>RadFormLogin.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Properties\licenses.licx" />
+<<<<<<< HEAD
+=======
+>>>>>>> developer
+>>>>>>> c407ecbc7d633e8c03ebeabf49d08cd9dc1f5546
     <EmbeddedResource Include="RadForm1.resx">
       <DependentUpon>RadForm1.cs</DependentUpon>
     </EmbeddedResource>
@@ -86,9 +103,18 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <EmbeddedResource Include="RadFormLogin.resx">
       <DependentUpon>RadFormLogin.cs</DependentUpon>
     </EmbeddedResource>
+=======
+<<<<<<< HEAD
+=======
+    <EmbeddedResource Include="RadFormLogin.resx">
+      <DependentUpon>RadFormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+>>>>>>> developer
+>>>>>>> c407ecbc7d633e8c03ebeabf49d08cd9dc1f5546
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
