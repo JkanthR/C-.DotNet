@@ -59,6 +59,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="POINT_OF_SALEDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>POINT_OF_SALEDataSet2.xsd</DependentUpon>
+    </Compile>
     <Compile Include="RadForm1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +94,17 @@
     <EmbeddedResource Include="RadFormLogin.resx">
       <DependentUpon>RadFormLogin.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="POINT_OF_SALEDataSet2.xsc">
+      <DependentUpon>POINT_OF_SALEDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="POINT_OF_SALEDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>POINT_OF_SALEDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="POINT_OF_SALEDataSet2.xss">
+      <DependentUpon>POINT_OF_SALEDataSet2.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

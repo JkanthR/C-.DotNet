@@ -20,6 +20,7 @@ namespace TelerikWinFormsBasic
         {
             this.roler = roler;
             InitializeComponent();
+            radGridView1.ShowGroupPanel = false;
         }
         private void radMenu_Click(object sender, EventArgs e)
         {
@@ -37,7 +38,24 @@ namespace TelerikWinFormsBasic
         }
         private void RadForm1_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'pOINT_OF_SALEDataSet.USER' table. You can move, or remove it, as needed.
+            this.uSERTableAdapter.Fill(this.pOINT_OF_SALEDataSet.USER);
         
+        }
+
+        private void radMenuUser_Click(object sender, EventArgs e)
+        {
+            radPanelUser.Visible = true;
+        }
+
+        private void radPanelUser_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void radButton1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

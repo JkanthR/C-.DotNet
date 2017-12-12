@@ -13,3 +13,4 @@ D:\Wilson\Code\C#\C-.DotNet\TelerikWinFormsBasic\TelerikWinFormsBasic\obj\x86\De
 D:\Wilson\Code\C#\C-.DotNet\TelerikWinFormsBasic\TelerikWinFormsBasic\obj\x86\Debug\TelerikWinFormsBasic.exe.licenses
 D:\Wilson\Code\C#\C-.DotNet\TelerikWinFormsBasic\TelerikWinFormsBasic\obj\x86\Debug\TelerikWinFormsBasic.exe
 D:\Wilson\Code\C#\C-.DotNet\TelerikWinFormsBasic\TelerikWinFormsBasic\obj\x86\Debug\TelerikWinFormsBasic.pdb
+D:\Wilson\Code\C#\C-.DotNet\TelerikWinFormsBasic\TelerikWinFormsBasic\obj\x86\Debug\TelerikWinFormsBasic.csprojResolveAssemblyReference.cache
