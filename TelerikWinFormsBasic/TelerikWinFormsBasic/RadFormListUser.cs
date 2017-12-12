@@ -14,7 +14,10 @@ namespace TelerikWinFormsBasic
         public RadFormListUser()
         {
             InitializeComponent();
-            radGridView1.ShowGroupPanel = false;
+            radGridViewUser.ShowGroupPanel = false;
+            FormBorderStyle = FormBorderStyle.None;
+            WindowState = FormWindowState.Maximized;
+            TopMost = true;
         }
 
         private void RadFormListUser_Load(object sender, EventArgs e)
@@ -22,6 +25,17 @@ namespace TelerikWinFormsBasic
             // TODO: This line of code loads data into the 'pOINT_OF_SALEDataSet1.USER' table. You can move, or remove it, as needed.
             this.uSERTableAdapter.Fill(this.pOINT_OF_SALEDataSet1.USER);
 
+        }
+
+
+        private void radButton1_Click(object sender, EventArgs e)
+        {
+            radGridViewUser.Visible = false;
+            radPanelUserShow.Controls.Clear();
+            RadCreatUser crateUser = new RadCreatUser();
+            crateUser.TopLevel = false;
+            radPanelUserShow.Controls.Add(crateUser);
+            crateUser.Show();
         }
     }
 }

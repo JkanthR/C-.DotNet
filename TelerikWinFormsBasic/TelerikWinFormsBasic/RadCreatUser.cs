@@ -15,5 +15,10 @@ namespace TelerikWinFormsBasic
         {
             InitializeComponent();
         }
+
+        private void RadCreatUser_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -75,7 +75,7 @@
             this.radMenuItem28});
             this.radMenu5.Location = new System.Drawing.Point(0, 0);
             this.radMenu5.Name = "radMenu5";
-            this.radMenu5.Size = new System.Drawing.Size(926, 30);
+            this.radMenu5.Size = new System.Drawing.Size(920, 30);
             this.radMenu5.TabIndex = 0;
             this.radMenu5.Text = "radMenu5";
             // 
@@ -117,7 +117,7 @@
             this.radPanelUser.Dock = System.Windows.Forms.DockStyle.Fill;
             this.radPanelUser.Location = new System.Drawing.Point(0, 30);
             this.radPanelUser.Name = "radPanelUser";
-            this.radPanelUser.Size = new System.Drawing.Size(926, 704);
+            this.radPanelUser.Size = new System.Drawing.Size(920, 704);
             this.radPanelUser.TabIndex = 1;
             this.radPanelUser.Paint += new System.Windows.Forms.PaintEventHandler(this.radPanelUser_Paint);
             // 
@@ -132,7 +132,7 @@
             // 
             this.AutoSize = true;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(926, 734);
+            this.ClientSize = new System.Drawing.Size(920, 734);
             this.Controls.Add(this.radPanelUser);
             this.Controls.Add(this.radMenu5);
             this.Name = "RadForm1";

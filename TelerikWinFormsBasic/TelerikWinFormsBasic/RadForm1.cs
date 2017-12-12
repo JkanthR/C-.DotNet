@@ -31,6 +31,9 @@ namespace TelerikWinFormsBasic
 
         private void radMenuUser_Click(object sender, EventArgs e)
         {
+            FormBorderStyle = FormBorderStyle.None;
+            WindowState = FormWindowState.Maximized;
+            TopMost = true;
             radPanelUser.Controls.Clear();
             RadFormListUser listUser = new RadFormListUser();
             listUser.TopLevel = false;
