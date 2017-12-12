@@ -20,21 +20,7 @@ namespace TelerikWinFormsBasic
         {
             this.roler = roler;
             InitializeComponent();
-            radGridView1.ShowGroupPanel = false;
-        }
-        private void radMenu_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void radMenuSell_Click(object sender, EventArgs e)
-        {
             
-        }
-
-        private void Products_Click(object sender, EventArgs e)
-        {
-           
         }
         private void RadForm1_Load(object sender, EventArgs e)
         {
@@ -45,7 +31,12 @@ namespace TelerikWinFormsBasic
 
         private void radMenuUser_Click(object sender, EventArgs e)
         {
-            radPanelUser.Visible = true;
+            radPanelUser.Controls.Clear();
+            RadFormListUser listUser = new RadFormListUser();
+            listUser.TopLevel = false;
+            radPanelUser.Controls.Add(listUser);
+            listUser.Show();
+            
         }
 
         private void radPanelUser_Paint(object sender, PaintEventArgs e)
@@ -53,9 +44,6 @@ namespace TelerikWinFormsBasic
 
         }
 
-        private void radButton1_Click(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }

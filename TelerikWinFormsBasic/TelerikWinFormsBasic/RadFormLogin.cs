@@ -8,7 +8,7 @@ using System.Windows.Forms;
 using Telerik.WinControls;
 using System.Data.SqlClient;
 using System.Data;
-
+using System.Net.Http;
 namespace TelerikWinFormsBasic
 {
     public partial class RadFormLogin : Telerik.WinControls.UI.RadForm
@@ -25,6 +25,7 @@ namespace TelerikWinFormsBasic
 
         private void radButtonLogin_Click(object sender, EventArgs e)
         {
+           
             SqlConnection conn = new SqlConnection(@"Data Source=ED015WILSON\SQLEXPRESS;Initial Catalog=POINT_OF_SALE;User ID=wilson;Password=wilson123");
             try 
             {
@@ -45,7 +46,22 @@ namespace TelerikWinFormsBasic
             {
                 MessageBox.Show(ex.Message);   
             }
+             /*
+            if ( radTextName.Text == "" || radTextPassword.Text == "")
+            {
+                MessageBox.Show("Please fill name or password!");
+                return;
+            }
+            HttpClient client = new HttpClient();
+            try
+            {
+                var response = client.GetAsync("http://192.168.21.22/PosServer/api/category").Result;
+            }
+            catch
+            {
 
+            }
+              * */
         }
 
         private void radButtonExit_Click(object sender, EventArgs e)
