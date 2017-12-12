@@ -15,5 +15,25 @@ namespace TelerikWinFormsBasic
         {
             InitializeComponent();
         }
+        private int roler;
+        public RadForm1(int roler)
+        {
+            this.roler = roler;
+            InitializeComponent();
+        }
+        private void radMenu_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radMenuSell_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Products_Click(object sender, EventArgs e)
+        {
+           
+        }
     }
 }
