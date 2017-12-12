@@ -14,7 +14,11 @@ namespace TelerikWinFormsBasic
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+<<<<<<< HEAD
             Application.Run(new RadForm1());
+=======
+            Application.Run(new RadFormLogin());
+>>>>>>> developer
         }
     }
 }
