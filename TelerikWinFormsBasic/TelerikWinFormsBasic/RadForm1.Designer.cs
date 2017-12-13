@@ -41,11 +41,14 @@
             this.radMenuItem27 = new Telerik.WinControls.UI.RadMenuItem();
             this.radMenuItem28 = new Telerik.WinControls.UI.RadMenuItem();
             this.radPanelUser = new Telerik.WinControls.UI.RadPanel();
+            this.radLabel1 = new Telerik.WinControls.UI.RadLabel();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.uSERBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pOINT_OF_SALEDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radMenu5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radPanelUser)).BeginInit();
+            this.radPanelUser.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabel1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
@@ -114,12 +117,21 @@
             // radPanelUser
             // 
             this.radPanelUser.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.radPanelUser.Controls.Add(this.radLabel1);
             this.radPanelUser.Dock = System.Windows.Forms.DockStyle.Fill;
             this.radPanelUser.Location = new System.Drawing.Point(0, 30);
             this.radPanelUser.Name = "radPanelUser";
             this.radPanelUser.Size = new System.Drawing.Size(920, 704);
             this.radPanelUser.TabIndex = 1;
             this.radPanelUser.Paint += new System.Windows.Forms.PaintEventHandler(this.radPanelUser_Paint);
+            // 
+            // radLabel1
+            // 
+            this.radLabel1.Location = new System.Drawing.Point(192, 149);
+            this.radLabel1.Name = "radLabel1";
+            this.radLabel1.Size = new System.Drawing.Size(55, 18);
+            this.radLabel1.TabIndex = 0;
+            this.radLabel1.Text = "radLabel1";
             // 
             // imageList1
             // 
@@ -140,11 +152,15 @@
             // 
             // 
             this.RootElement.ApplyShapeToControl = true;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.RadForm1_FormClosed);
             this.Load += new System.EventHandler(this.RadForm1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.uSERBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pOINT_OF_SALEDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radMenu5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radPanelUser)).EndInit();
+            this.radPanelUser.ResumeLayout(false);
+            this.radPanelUser.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabel1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -198,5 +214,6 @@
         private Telerik.WinControls.UI.RadMenuItem radMenuItem28;
         private Telerik.WinControls.UI.RadPanel radPanelUser;
         private System.Windows.Forms.ImageList imageList1;
+        private Telerik.WinControls.UI.RadLabel radLabel1;
     }
 }

@@ -11,15 +11,12 @@ namespace TelerikWinFormsBasic
 {
     public partial class RadForm1 : Telerik.WinControls.UI.RadForm
     {
-        public RadForm1()
+        public static string token ;
+        public RadForm1(string token1)
         {
             InitializeComponent();
-        }
-        private int roler;
-        public RadForm1(int roler)
-        {
-            this.roler = roler;
-            InitializeComponent();
+            token = token1;
+            radLabel1.Text = token1;
             
         }
         private void RadForm1_Load(object sender, EventArgs e)
@@ -45,6 +42,11 @@ namespace TelerikWinFormsBasic
         private void radPanelUser_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void RadForm1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            System.Windows.Forms.Application.Exit();
         }
 
         
