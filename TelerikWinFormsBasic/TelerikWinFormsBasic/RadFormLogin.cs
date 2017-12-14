@@ -68,7 +68,8 @@ namespace TelerikWinFormsBasic
                     var responseContent = await reponse.Content.ReadAsStringAsync().ConfigureAwait(false);
                     JObject s =  JObject.Parse(responseContent.ToString());
                     this.Hide();
-                    RadForm1 fm = new RadForm1(s["token"].ToString());
+                    Console.WriteLine("da nhan duoc du lieu tu serve");
+                    RadFormAdmin fm = new RadFormAdmin(s["token"].ToString());
                     fm.Show();
                 }
                 else
