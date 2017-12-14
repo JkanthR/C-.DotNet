@@ -6,7 +6,6 @@ D:\Wilson\Code\C#\C-.DotNet\TelerikWinFormsBasic\TelerikWinFormsBasic\bin\Debug\
 D:\Wilson\Code\C#\C-.DotNet\TelerikWinFormsBasic\TelerikWinFormsBasic\bin\Debug\TelerikCommon.dll
 D:\Wilson\Code\C#\C-.DotNet\TelerikWinFormsBasic\TelerikWinFormsBasic\bin\Debug\Telerik.WinControls.xml
 D:\Wilson\Code\C#\C-.DotNet\TelerikWinFormsBasic\TelerikWinFormsBasic\bin\Debug\Telerik.WinControls.UI.xml
-D:\Wilson\Code\C#\C-.DotNet\TelerikWinFormsBasic\TelerikWinFormsBasic\obj\x86\Debug\TelerikWinFormsBasic.RadForm1.resources
 D:\Wilson\Code\C#\C-.DotNet\TelerikWinFormsBasic\TelerikWinFormsBasic\obj\x86\Debug\TelerikWinFormsBasic.Properties.Resources.resources
 D:\Wilson\Code\C#\C-.DotNet\TelerikWinFormsBasic\TelerikWinFormsBasic\obj\x86\Debug\TelerikWinFormsBasic.RadFormLogin.resources
 D:\Wilson\Code\C#\C-.DotNet\TelerikWinFormsBasic\TelerikWinFormsBasic\obj\x86\Debug\TelerikWinFormsBasic.csproj.GenerateResource.Cache
@@ -27,3 +26,5 @@ D:\Wilson\Code\C#\C-.DotNet\TelerikWinFormsBasic\TelerikWinFormsBasic\bin\Debug\
 D:\Wilson\Code\C#\C-.DotNet\TelerikWinFormsBasic\TelerikWinFormsBasic\bin\Debug\System.Net.Http.Formatting.dll
 D:\Wilson\Code\C#\C-.DotNet\TelerikWinFormsBasic\TelerikWinFormsBasic\bin\Debug\Json.pdb
 D:\Wilson\Code\C#\C-.DotNet\TelerikWinFormsBasic\TelerikWinFormsBasic\bin\Debug\System.Net.Http.Formatting.xml
+D:\Wilson\Code\C#\C-.DotNet\TelerikWinFormsBasic\TelerikWinFormsBasic\obj\x86\Debug\TelerikWinFormsBasic.RadFormAdmin.resources
+D:\Wilson\Code\C#\C-.DotNet\TelerikWinFormsBasic\TelerikWinFormsBasic\obj\x86\Debug\TelerikWinFormsBasic.RadFormCatogery.resources

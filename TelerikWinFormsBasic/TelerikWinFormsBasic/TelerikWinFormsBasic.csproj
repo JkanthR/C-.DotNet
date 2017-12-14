@@ -83,6 +83,7 @@
   <ItemGroup>
     <Compile Include="HttpConnect.cs" />
     <Compile Include="LoginDTO.cs" />
+    <Compile Include="Model\Catogery.cs" />
     <Compile Include="POINT_OF_SALEDataSet11.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -99,11 +100,17 @@
     <Compile Include="RadCreatUser.Designer.cs">
       <DependentUpon>RadCreatUser.cs</DependentUpon>
     </Compile>
-    <Compile Include="RadForm1.cs">
+    <Compile Include="RadFormAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RadForm1.Designer.cs">
-      <DependentUpon>RadForm1.cs</DependentUpon>
+    <Compile Include="RadFormAdmin.Designer.cs">
+      <DependentUpon>RadFormAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RadFormCatogery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RadFormCatogery.Designer.cs">
+      <DependentUpon>RadFormCatogery.cs</DependentUpon>
     </Compile>
     <Compile Include="RadFormListUser.cs">
       <SubType>Form</SubType>
@@ -121,8 +128,8 @@
     <EmbeddedResource Include="RadCreatUser.resx">
       <DependentUpon>RadCreatUser.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RadForm1.resx">
-      <DependentUpon>RadForm1.cs</DependentUpon>
+    <EmbeddedResource Include="RadFormAdmin.resx">
+      <DependentUpon>RadFormAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -135,6 +142,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RadFormCatogery.resx">
+      <DependentUpon>RadFormCatogery.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="RadFormListUser.resx">
       <DependentUpon>RadFormListUser.cs</DependentUpon>
     </EmbeddedResource>

@@ -9,36 +9,20 @@ using System.Windows.Forms;
 
 namespace TelerikWinFormsBasic
 {
-    public partial class RadForm1 : Telerik.WinControls.UI.RadForm
+    public partial class RadFormAdmin : Telerik.WinControls.UI.RadForm
     {
         public static string token ;
-        public RadForm1(string token1)
+        public RadFormAdmin(string token1)
         {
             InitializeComponent();
             token = token1;
-            radLabel1.Text = token1;
             
         }
         private void RadForm1_Load(object sender, EventArgs e)
         {
             // TODO: This line of code loads data into the 'pOINT_OF_SALEDataSet.USER' table. You can move, or remove it, as needed.
-            this.uSERTableAdapter.Fill(this.pOINT_OF_SALEDataSet.USER);
         
         }
-
-        private void radMenuUser_Click(object sender, EventArgs e)
-        {
-            FormBorderStyle = FormBorderStyle.None;
-            WindowState = FormWindowState.Maximized;
-            TopMost = true;
-            radPanelUser.Controls.Clear();
-            RadFormListUser listUser = new RadFormListUser();
-            listUser.TopLevel = false;
-            radPanelUser.Controls.Add(listUser);
-            listUser.Show();
-            
-        }
-
         private void radPanelUser_Paint(object sender, PaintEventArgs e)
         {
 
@@ -47,6 +31,13 @@ namespace TelerikWinFormsBasic
         private void RadForm1_FormClosed(object sender, FormClosedEventArgs e)
         {
             System.Windows.Forms.Application.Exit();
+        }
+
+        private void pictureCaregory_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            RadFormCatogery catogery = new RadFormCatogery();
+            catogery.Show();
         }
 
         
